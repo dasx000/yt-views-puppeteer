@@ -4,7 +4,7 @@
   "description": "belajar puppeteer",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name yt-views-puppeteer && pm2 save && pm2 startup && pm2 logsa",
+    "start": "pm2 start index.js --name yt-views-puppeteer && pm2 save && pm2 startup && pm2 logs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

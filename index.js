@@ -18,9 +18,9 @@ const yt = async (url, duration, views) => {
     ///
     const page = await browser.newPage();
     await page.goto(url);
-    await sleep(1000 * Number(duration));
+    await sleep(1000 * Number(duration) + 120000);
     await browser.close();
   }
 };
 
-yt('https://www.youtube.com/watch?v=al9aW-Gig2E', '10', '3');
+yt('https://www.youtube.com/watch?v=al9aW-Gig2E', '180', '300000');
