@@ -18,8 +18,11 @@ const yt = async (url, duration, views) => {
     ///
     const page = await browser.newPage();
     await page.goto(url);
+    console.log('page loaded');
     await sleep(1000 * Number(duration) + 120000);
+    console.log('sleep done');
     await browser.close();
+    console.log('browser closed');
   }
 };
 
