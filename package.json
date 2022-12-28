@@ -1,0 +1,20 @@
+{
+  "name": "yt-views-puppeteer",
+  "version": "1.0.0",
+  "description": "belajar puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --name yt-views-puppeteer && pm2 save && pm2 startup && pm2 logsa",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer",
+    "youtube",
+    "views"
+  ],
+  "author": "dasx000",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.4.1"
+  }
+}
